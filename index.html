@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Update form</title>
+    <style>
+        span{
+            color: red;
+        }
+        table ,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        *{
+            margin: 3px 1px 3px 1px; 
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(255,248,240,0.863)">
+        <div style="background-color: brown;color: white;">
+            <h5 style="text-align: center;">Requested For New PAN Card Or/And changes or Correction in PAN Data</h5>
+            <p style="font-style: italic; text-align: center;">Fields marked with <span>*</span>asticks are mandatory.To avoid mistakes</p>
+        </div>
+        <div style="font-weight: bold;">
+            <table style="width: 100%;">
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display: inline;"> <span>*</span> whether he/she is an indian citizen</p>
+                        <div style="display:inline">
+                            <label for='yes' style="padding: left 70px;">Yes</label>
+                            <input type="radio" id='yes'>
+                            <label for='no' style="padding: left 400px;" >No</label>
+                            <input type="radio" id='no'>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan='2'>
+                    <div style="display:inline">
+                       <label for="pan"> <span>*</span>Permanent Account number</label>
+                       <input type="text" name="" id="pan">
+                      </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display: inline;"> 1.Name</p>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display: inline;"> Title</p>
+                        <div style="display:inline">
+                        <label for='yes'>Shri/Mr</label>
+                        <input type="radio" id='yes'>
+                        <label for='no'>Smt/Mrs</label>
+                        <input type="radio" id='no'>
+                        <label for='ms'>Kumar/Ms</label>
+                        <input type="radio" id='ms'>
+                    </div>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+</body>
+</html>
